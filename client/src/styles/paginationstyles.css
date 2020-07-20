@@ -1,0 +1,18 @@
+.pag {
+  display: inline-block;
+  text-align: center;
+}
+div a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+div a:hover {
+  background-color: gainsboro;
+}
+
+div a.active {
+  background-color: #4caf50;
+  color: white;
+}

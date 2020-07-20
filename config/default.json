@@ -1,0 +1,5 @@
+//This file should never be accessible to other people. I'm just committing it because this is a cluster
+//with learning purposes
+{
+  "mongoURI": "mongodb+srv://admin:admin@pagination.8s1us.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
