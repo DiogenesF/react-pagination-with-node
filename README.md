@@ -32,7 +32,7 @@ and
 
  Then, open another terminal, move to the /client folder and run:
 ### `npm install`
-e
+and
 ### `npm start`
 
 After that the application will start.
