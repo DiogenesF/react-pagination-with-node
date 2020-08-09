@@ -10,9 +10,9 @@ db.once("open", async () => {
     console.log("Data is already there!");
     return;
   }
-  const res = await axios.get("https://jsonplaceholder.typicode.com/todos/");
-  const titles = res.data.map((each) => {
-    return { title: each.title };
+  const res = await axios.get("https://pokeapi.co/api/v2/type/3");
+  const titles = res.data.pokemon.map((each) => {
+    return { title: each.pokemon.name };
   });
   Posts.insertMany(titles, function (err, docs) {
     if (err) console.log(err.message);
